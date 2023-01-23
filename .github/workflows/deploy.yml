@@ -1,6 +1,5 @@
 name: TDR Deploy Backend Checks Results Lambda
 on:
-  push:
   workflow_dispatch:
     inputs:
       environment:
