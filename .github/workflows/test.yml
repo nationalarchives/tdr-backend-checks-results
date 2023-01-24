@@ -1,4 +1,4 @@
-name: TDR Run File Upload Data Tests
+name: TDR Run Backend Checks Results Tests
 on:
   pull_request:
   push:
