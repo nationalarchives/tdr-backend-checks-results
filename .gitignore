@@ -1,3 +1,4 @@
 function.zip
 venv
+.idea
 __pycache__
