@@ -1,5 +1,5 @@
 import pytest
-from moto import mock_s3
+from moto import mock_aws
 import boto3
 import json
 from uuid import uuid4
@@ -10,7 +10,7 @@ backend_checks_bucket = 'test-backend-checks-bucket'
 
 @pytest.fixture(scope='function')
 def s3():
-    with mock_s3():
+    with mock_aws():
         yield boto3.client('s3', region_name='eu-west-2')
 
 
