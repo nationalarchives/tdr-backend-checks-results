@@ -53,7 +53,7 @@ There is a lambda_handler.py file which can be run to test the lambda locally. T
 ## Running the tests
 Run the tests with a virtual environment and pytest.
 ```commandline
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
-python -m pytest
+python3 -m pytest
 ```
