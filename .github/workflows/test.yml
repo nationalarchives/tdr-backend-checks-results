@@ -10,7 +10,7 @@ permissions:
   contents: read
 jobs:
   test:
-    uses: nationalarchives/tdr-github-actions/.github/workflows/tdr_test.yml@13faff54c193651ee30482ebdf01e083c8b14203 # v.0.0.17
+    uses: nationalarchives/tdr-github-actions/.github/workflows/tdr_test.yml@4cce7fa069b9dbecddbdacd9350f66adc50ac815 # v.0.0.22
     with:
       repo-name: tdr-backend-checks-results
       test-command: |
